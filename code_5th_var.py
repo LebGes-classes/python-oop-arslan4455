@@ -11,9 +11,12 @@ class Ship:
         return self.__name
     
     def set_displacement(self, displacement):
+
         self.__displacement = displacement
+
         if displacement <= 0:
             print('Вы ввели неверное значение')
+            
             self.__displacement = 1
     
     def get_displacement(self):
