@@ -11,7 +11,6 @@ class Ship:
         return self.__name
     
     def set_displacement(self, displacement):
-
         self.__displacement = displacement
 
         if displacement <= 0:
@@ -40,6 +39,7 @@ class Ship:
         if self.__type.lower() in ['линкор', 'крейсер', 'авианосец', 'эсминец']:
             return True
         else: return False
+
 
 class Menu:
     def __init__(self, ship: Ship):
