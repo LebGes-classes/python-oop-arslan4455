@@ -6,7 +6,7 @@ from Menu import (
 )
 
 
-ship_1 = Ship('radgsdf', 'gdagd', 'ghreh')
+ship_1 = Ship('Ленин', 16000, 'Атомный ледокол')
 ship_2 = Ship()
 menu = Menu()
 

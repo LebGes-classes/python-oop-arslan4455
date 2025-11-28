@@ -2,6 +2,7 @@ from Ship import (
     Ship,
 )
 
+
 class Menu:
     '''Класс меню для работы пользовательского меню.'''
 
@@ -51,5 +52,16 @@ class Menu:
                 type_ = input('Введите тип корабля: ')
 
                 ship.set_type(type_)
-            
+            case 5:
+                is_mil = ship.is_military()
+                print('Да' if is_mil else 'Нет')
+            case 6:
+                print(ship.get_name())
+            case 7:
+                print(ship.get_displacement())
+            case 8:
+                print(ship.get_type())
+            case 9:
+                ship.reset()
+
         return is_running
