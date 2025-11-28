@@ -13,7 +13,7 @@ menu = Menu()
 is_running = True
 
 def run() -> None:
-    """Метод запуска работы."""
+    '''Метод запуска работы.'''
 
     is_running = True
 
