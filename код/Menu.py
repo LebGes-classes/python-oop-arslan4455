@@ -5,8 +5,6 @@ from Ship import (
 class Menu:
     '''Класс меню для работы пользовательского меню.'''
 
-    
-
     def print_main_menu(self) -> None:
         '''Вывод пунктов главного пользовательского меню.'''
 
@@ -32,7 +30,6 @@ class Menu:
 
         Returns:
             is_running: Продолжается ли работа программы.
-
         '''
 
         is_running = True
@@ -55,5 +52,4 @@ class Menu:
 
                 ship.set_type(type_)
             
-
         return is_running

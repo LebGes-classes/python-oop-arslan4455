@@ -26,5 +26,4 @@ def run() -> None:
 
         is_running = menu.main_menu(choice, ship)
 
-
 run()
